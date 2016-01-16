@@ -4,43 +4,14 @@
     <title>apeco</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <style>
-      body {
-        background: #f06d06;
-        height: 100%
-      }
 
-      main {
-        position: relative;
-        backgaround: white;
-        height: 100%;
-        width: 60%;
-        margin: 0 auto;
-        padding: 20px;
-        resize: both;
-        overflow: auto;
-      }
-
-      main div {
-        background: black;
-        color: white;
-        width: 50%;
-        transform: translate(-50%, -50%);
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        padding: 20px;
-        resize: both;
-        overflow: auto;
-      }
 		</style>
   </head>
   <body>
-    <main>
-
-      <div>
-         I'm a block-level element of an unknown height and width, centered vertically within my parent.
+    <div style="display:table;">
+      <div style="display:table-cell;vertical-align:middle;">
+        <div style="text-align:center;height:2em;font-size:2em;">Text Content</div>
       </div>
-
-    </main>
+    </div>
   </body>
 </html>
