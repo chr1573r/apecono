@@ -18,17 +18,28 @@
 	  		  color: white;
 			}
 
-      .outer {
+      .main {
         position: relative;
+        background: white;
+        height: 200px;
+        width: 60%;
+        margin: 0 auto;
+        padding: 20px;
+        resize: both;
+        overflow: auto;
       }
 
-      .inner {
-        margin: auto;
+      .main div {
+        background: black;
+        color: white;
+        width: 50%;
+        transform: translate(-50%, -50%);
         position: absolute;
-        left:0;
-        right: 0;
-        top: 0;
-        bottom: 0;
+        top: 50%;
+        left: 50%;
+        padding: 20px;
+        resize: both;
+        overflow: auto;
       }
 
 
@@ -37,17 +48,14 @@
 			</style>
   </head>
   <body>
-    <div class="outer">
-    <div class="inner">
-    <p>
+    <main>
+    <div>
       <a href="http://github.com">a</a>
       <a href="http://github.com">p</a>
       <a href="http://github.com">e</a>
       <a href="http://github.com">c</a>
       <a href="http://github.com">o</a>
-    </p>
     </div>
-    </div>
-    </div>
+  </main>
   </body>
 </html>
