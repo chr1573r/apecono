@@ -6,26 +6,30 @@
     <style>
 			body {
 			    background-color: rgb(70,0,150);
-          text-align:center; /* center horizontally */
-          vertical-align:middle;
 			}
 
 			a {
 			    color: rgb(225,229,232);
 			    text-decoration: none;
           font-family: 'Open Sans', sans-serif;
-          font-size: em4;
+          font-size: xx-large;
 			}
 			a:hover {
 	  		  color: white;
 			}
+
+      #container { width:200px; height:200px; background-color:yellow; position:relative; }
+      #content { left:50%; top:50%; transform:translate(-50%,-50%); -webkit-transform:translate(-50%,-50%); background-color:gray; color:white; position:absolute; }
 			</style>
   </head>
   <body>
+
+    <div id="container"><div id="content">
     <a href="http://github.com">a</a>
     <a href="http://github.com">p</a>
     <a href="http://github.com">e</a>
     <a href="http://github.com">c</a>
     <a href="http://github.com">o</a>
+    </div></div>
   </body>
 </html>
